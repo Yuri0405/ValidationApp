@@ -1,0 +1,24 @@
+{
+  "DataPatterns": [
+    {
+      "PatternName": "rnokpp",
+      "Pattern": "^\\d{10}"
+    },
+    {
+      "PatternName": "series",
+      "Pattern": "^[А-ЯЁ]{2}\\d{6}$"
+    },
+    {
+      "PatternName": "birthdate",
+      "Pattern": "^(0[1-9]|[12][0-9]|3[01])\\.(0[1-9]|1[0-2])\\.\\d{4}$"
+    },
+    {
+      "PatternName": "iOSDevice",
+      "Pattern": "^[A-F0-9]{8}-[A-F0-9]{4}-[A-F0-9]{4}-[A-F0-9]{4}-[A-F0-9]{12}$"
+    },
+    {
+      "PatternName": "androidDevice",
+      "Pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+    }
+  ]
+}

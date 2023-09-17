@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ValidationApp": {
+      "commandName": "Project",
+      "commandLineArgs": "birthdate 04.05.2001"
+    }
+  }
+}
